@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 var path = require('path')
 var os = require('os')
-var lib = require(path.join(__dirname, '../utilities/browser-run/lib.js'))
+var lib = require('ostrich-browser-run')
 
 var platform = os.platform()
 if (platform === 'darwin') {
